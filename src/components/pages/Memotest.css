@@ -15,7 +15,7 @@
   height: 120px;
   background: white;
   border: 1px solid black;
-  color: black;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,15 +57,17 @@
   pointer-events: none;
 }
 
+
+
 .oculta {
-  opacity:0 ;
+  color: #365324 ;
 }
 
 .acertada{
   opacity: .75;
 }
 .seleccionada {
-opacity: 1;
+  color: red
   /* transition: opacity ease-in-out 0.7s; */
 }
 

@@ -101,7 +101,7 @@ const useMemotestGameState = () => {
 
   const seleccionarCarta = (indexCarta) => {
     if (cartas[indexCarta].estado === "oculta") {
-      cartas[indexCarta].estado = "hola";
+      cartas[indexCarta].estado = "seleccionada";
       setCartas(cartas);
     }
   };
@@ -124,7 +124,7 @@ const Memo = () => {
           {fila.map((carta, indexCasilla) => (
             <Square
               value={carta.id}
-              estado={'hola'}
+              estado={carta.estado}
               key={indexFila * 4 + indexCasilla}
               onClick={() => {
                 seleccionarCarta(indexFila * 4 + indexCasilla);
