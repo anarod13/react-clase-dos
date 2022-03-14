@@ -9,6 +9,7 @@ import UglyClass from './UglyClass';
 import FancyButton from '../small/FancyButton';
 import TicTacToe from './TicTacToe';
 import Memotest from './Memotest'
+import Memo from './Memo'
 
 const pages = {
   home: {
@@ -42,6 +43,10 @@ const pages = {
   memotest:{
     name: 'Memotest',
     component: Memotest
+  },
+  memotest2:{
+    name:'Memotest',
+    component: Memo
   }
 };
 

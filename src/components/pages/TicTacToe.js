@@ -90,8 +90,7 @@ const TicTacToe = () => {
   tilesForRow[0]=tiles.slice(0,3)
   tilesForRow[1]=tiles.slice(3,6)
   tilesForRow[2]=tiles.slice(6)
-console.log(tiles)
-  console.log(tilesForRow)
+
   return (
     <div  className="tictactoe">
       <WinnerCard show={gameEnded} winner={winner} onRestart={restart}/>

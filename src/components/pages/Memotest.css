@@ -7,7 +7,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: small;}
+  font-size: small;
+}
+
+#square {
+  width: 150px;
+  height: 120px;
+  background: white;
+  border: 1px solid black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
 
 .memotest {
   position: relative;
